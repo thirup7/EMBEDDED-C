@@ -1,0 +1,10 @@
+#include<AT89S52.h>
+
+void main()
+{
+ 
+  while(1)//*SUPER LOOP*//
+{
+P2_0=0;//*LED ON*//
+}
+}
