@@ -3,8 +3,8 @@
 void main()
 {
  
-  while(1)//*SUPER LOOP*//
+  while(1)  //*SUPER LOOP*//
 {
-P2_0=0;//*LED ON*//
+P2_0=0;     //*LED ON*//
 }
 }
