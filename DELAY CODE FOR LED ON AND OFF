@@ -1,0 +1,21 @@
+#include<AT89S52.h>
+
+void wait(void);//*USER FUNCTION*//
+
+void main()
+{
+ while(1)//* SUPER LOOP*//
+{
+ P2_0=0;//*LED ON*//
+ wait();//*DELAY FOR SOME TIMES*//
+ P2_0=1;//*LED OFF*//
+ wait();//*DELAY FOR SOME TIMES*//
+}
+}
+
+void wait(void)
+{
+int i;//*INITILIZE BEFORE THE VARIABLE FOR LOOP*//
+for(i=0;i<100;i++){
+}
+}
